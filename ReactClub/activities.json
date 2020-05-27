@@ -1,0 +1,25 @@
+ events = [
+    {"name": "Plain Snorkel",
+           "dates": ["June 9th", "June 23rd", "July 7th", "July 21",
+                      "August 4th" ]
+    },
+         {
+             "name": "Full Face Snorkel",
+          "dates": ["May 3rd", "May 20th", "July 15th",
+                    "August 2nd", "September 9th"]
+         },
+    {
+             "name": "Dolphin Snorkeller course",
+          "dates": ["May 10th", "June 10th", "July 15th",
+                     "September 19"]
+         },
+    {
+             "name": "Snorkel Diver course",
+          "dates": ["May 23rd", "June 20th", "July 25th",
+                    "October 22nd", "December 19", "etc,."]
+         },
+    
+         {
+             "name": "Snorkel Away Weekends", "dates": ["Sundays and Saturdays in all seasons except for winter"]
+         }
+];
