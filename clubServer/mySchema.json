@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://grotto-networking.com/example3.schema.json",
+    "title": "A club membership application schema",
+    "description": "A schema for submitted membership applications ",
+    "type": "object",
+    "properties": {
+        "firstName": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 40
+        },
+        "Email": {
+            "description": "the email of the applicant",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "Password": {
+            "description": "the password of the applicant",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 20
+        },"Snorkel license number": {
+            "description": "the license number of the applicant",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30
+        },"Skill-Level": {
+            "description": "Applicants sailing level",
+            "type": "string",
+            "enum":["No Experience","Basic","Intermediate","Advanced"]
+            },
+        "Comments": {
+            "description": "Comments or extra info from the applicants",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+        }
+    },
+    "required": ["firstName", "Email","Password","Skill-Level"],
+    "additionalProperties": false
+}
