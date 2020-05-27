@@ -1,0 +1,225 @@
+
+   html{
+    background-color:lightblue;  
+  }
+  nav  {
+   
+    padding: 10px;
+    width: 15%;
+    /*border: 1px solid rgb(235, 20, 20);
+      */
+    padding: .5em;
+    background-color:white;
+    max-width: 30em;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+
+#Activies_box,
+{
+   
+    /*border: 1px solid rgb(235, 20, 20);*/
+    padding: .8em;
+    background-color:white;
+    max-width: 60em;
+    border-radius: 5em;
+    margin-left:auto; 
+    margin-right:auto;
+    
+}
+#Form_box
+{
+   
+    /*border: 1px solid rgb(235, 20, 20);*/
+     margin-top: 1em;
+    padding: .8em;
+    background-color:white;
+    max-width: 80em;
+    border-radius: 5em;
+    margin-left:auto; 
+    margin-right:auto;
+    
+}
+#Login_box
+{
+   
+    /*border: 1px solid rgb(235, 20, 20);*/
+    padding: 10em;
+    background-color:white;
+    max-width: 30em;
+    border-radius: 5em;
+    margin-top: 1em;
+    margin-left: 15em;
+    margin-right: 15em;
+    
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 30%; /* Full width */
+  height: 30%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: transparency;  /* Black w/ opacity */
+}
+.modal-content {
+  background-color: lightgray;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal-body {padding: 2px 16px;}
+.container {
+    display: grid; 
+    justify-content:center;
+    grid-row-gap: 10px;
+    }
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#add_activity
+{  max-width:50em;
+     margin-left:auto; 
+    margin-right:auto;
+    border: 3px solid grey;
+    border-collapse: collapse;
+    display: grid;
+    grid-template-columns: 10em 1fr;
+    grid-row-gap: 0.8em;
+   grid-column-gap: 0.2em;
+}
+
+
+table {
+  table-layout: fixed;
+  max-width:50em;
+      /*width:95%;*/
+    margin-left:auto; 
+    margin-right:auto;
+  border: 3px solid grey;
+    border-collapse: collapse;
+    
+}
+label {
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+}
+
+thead td{
+    text-align: center;
+}
+
+th, td {
+    padding-left: 0.2em;
+   padding-right: 0.2em;
+  padding: 20px;
+   
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+ 
+}
+  
+  li {
+    margin-left: 20px;
+    text-decoration: none;
+
+  }
+  li :a{
+      display:block;
+      color:white;
+      text-align:center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  li :hover{
+    background-color: #07cc6a;
+  }
+  
+  body {
+   justify-content:center;
+    background:FE5B38;
+      overflow: auto;
+    
+  }
+p{
+    text-align:center;
+     overflow: auto;
+}
+  ul {
+      margin:0;
+      padding:0;
+    list-style-type: none;
+    overflow:hidden;
+    background:FB69D8;
+  }
+  main {
+    font-family: 'Ubuntu', arial, sans-serif;
+     /*border: 1px solid rgb(235, 20, 20);*/
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightseagreen;
+    padding: .3 em;
+    max-width: 80em;
+    border-radius: 2em;
+    margin-top: 5em;
+    margin-left: 5em
+  }
+  h1{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+      }
+.myfont {
+     text-align:center;
+    font-size: 26px;
+    
+}
+  h2 {
+    font-size: 40px;
+    color: #08509f;
+    text-align: center;
+  }
+  .footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #08509f;
+   color: white;
+   text-align: center;
+}            
+  
