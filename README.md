@@ -10,3 +10,5 @@ The features include:
 
 You can see the demo of the application on my linkedIn website:
 https://www.linkedin.com/in/pooja-anand-kumar-6125b8112/
+
+![SnorkellingClubVideo](https://user-images.githubusercontent.com/49919979/95931068-06239380-0d7d-11eb-9a48-654e694c0086.gif)
